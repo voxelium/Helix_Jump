@@ -4,7 +4,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
 
-public class Ball : cat_Ball
+public class Ball : MonoBehaviour
 {
 
     [SerializeField] private float _jumpForce;

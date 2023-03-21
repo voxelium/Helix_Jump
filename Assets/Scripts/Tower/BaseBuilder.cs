@@ -19,13 +19,7 @@ public class BaseBuilder : MonoBehaviour
         Build();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-
+ 
     // Метод спауна Башни
     private void Build()
     {
