@@ -48,6 +48,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bc76b934bcb2499386191ebf8bed632, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _bounceForce: 0
+  _bounceRadius: 0
 --- !u!1001 &7457043747574844784
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -99,6 +101,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: aee34741fcac9476e87f9d3a2d208e04, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4da8d792a837e4f7db94e06fce9ae4f4, type: 2}
     - target: {fileID: 919132149155446097, guid: aee34741fcac9476e87f9d3a2d208e04, type: 3}
       propertyPath: m_Name
       value: sector_90
@@ -180,6 +186,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: aee34741fcac9476e87f9d3a2d208e04, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4da8d792a837e4f7db94e06fce9ae4f4, type: 2}
     - target: {fileID: 919132149155446097, guid: aee34741fcac9476e87f9d3a2d208e04, type: 3}
       propertyPath: m_Name
       value: sector_90 (1)
@@ -261,6 +271,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: aee34741fcac9476e87f9d3a2d208e04, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4da8d792a837e4f7db94e06fce9ae4f4, type: 2}
     - target: {fileID: 919132149155446097, guid: aee34741fcac9476e87f9d3a2d208e04, type: 3}
       propertyPath: m_Name
       value: sector_90 (2)
@@ -342,6 +356,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: aee34741fcac9476e87f9d3a2d208e04, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4da8d792a837e4f7db94e06fce9ae4f4, type: 2}
     - target: {fileID: 919132149155446097, guid: aee34741fcac9476e87f9d3a2d208e04, type: 3}
       propertyPath: m_Name
       value: sector_90 (3)

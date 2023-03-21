@@ -252,6 +252,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: aee34741fcac9476e87f9d3a2d208e04, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 75acc92de4c9a4a44b74f0d22f5aa20c, type: 2}
     - target: {fileID: 919132149155446097, guid: aee34741fcac9476e87f9d3a2d208e04, type: 3}
       propertyPath: m_Name
       value: sector_90 (2)
@@ -361,6 +365,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: aee34741fcac9476e87f9d3a2d208e04, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 75acc92de4c9a4a44b74f0d22f5aa20c, type: 2}
     - target: {fileID: 919132149155446097, guid: aee34741fcac9476e87f9d3a2d208e04, type: 3}
       propertyPath: m_Name
       value: sector_90 (1)
@@ -470,6 +478,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: aee34741fcac9476e87f9d3a2d208e04, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 75acc92de4c9a4a44b74f0d22f5aa20c, type: 2}
     - target: {fileID: 919132149155446097, guid: aee34741fcac9476e87f9d3a2d208e04, type: 3}
       propertyPath: m_Name
       value: sector_90

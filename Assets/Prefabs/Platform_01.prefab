@@ -48,8 +48,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c578fa7f7de4806812b5d9357a0388, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bounceForce: 50
-  _bounceRadius: 50
+  _bounceForce: 100
+  _bounceRadius: 75
 --- !u!1001 &3347304987643238349
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -101,6 +101,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: aee34741fcac9476e87f9d3a2d208e04, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 728d0d05f715d4c1c9ede9eed4f80d70, type: 2}
     - target: {fileID: 919132149155446097, guid: aee34741fcac9476e87f9d3a2d208e04, type: 3}
       propertyPath: m_Name
       value: sector_90 (2)
@@ -210,6 +214,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: aee34741fcac9476e87f9d3a2d208e04, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 728d0d05f715d4c1c9ede9eed4f80d70, type: 2}
     - target: {fileID: 919132149155446097, guid: aee34741fcac9476e87f9d3a2d208e04, type: 3}
       propertyPath: m_Name
       value: sector_90

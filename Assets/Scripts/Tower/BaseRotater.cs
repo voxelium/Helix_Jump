@@ -4,7 +4,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
 
-public class TowerRotator : MonoBehaviour
+public class BaseRotater : MonoBehaviour
 {
     private Rigidbody _rigidbody;
 
@@ -23,14 +23,13 @@ public class TowerRotator : MonoBehaviour
     private void Update()
     {
 
-
         if (Input.touchCount > 0)
         {
             Touch touch = Input.GetTouch(0);
             if (touch.phase == TouchPhase.Moved)
             {
                 float torque = touch.deltaPosition.x * Time.deltaTime * _rotateSpeed;
-                _rigidbody.AddTorque(Vector3.up * torque);
+                _rigidbody.AddTorque(Vector3.up * torque * -1);
 
             }
 
